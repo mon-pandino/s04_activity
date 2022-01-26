@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Activity for S04</title>
+	</head>
+	<body>
+			<header>
+				<nav>
+					<a href="">Products</a>
+					<a href="">Contact Form</a>
+				</nav>
+			</header>
+		<main>
+			<section id="products">
+				<br>
+				<h2>Zuitt IT Solutions</h2>
+				<h4>Products Offered</h4>
+				<table border="1">
+					<thead>
+						<tr>
+							<th>Package</th>
+							<th>Price</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Basic</td>
+							<td>&#8369;500.00</td>
+							<td>Package includes a fully functional website with desired specifications.</td>
+						</tr>
+						<tr>
+							<td>Premium</td>
+							<td>&#8369;1000.00</td>
+							<td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="3">Additional features after initial project is inclusive of charges</th>
+						</tr>
+					</tfoot>
+					
+				</table>
+				<br>
+			</section>
+			<section id="contact_form" align="center">
+				<h2>Contact Form</h2>
+				<form>
+					
+						<label for="firstName">First Name:</label> 
+						<br>
+				    	<input type="text" name="first_name" id="firstName" required autocomplete>
+				    	<br>
+				    	<label for="lastName">Last Name:</label>
+				    	<br>
+				    	<input type="text" name="last_name" id="lastName" required autocomplete>
+				    	<br>
+				    	<label for="email">Email:</label>
+				    	<br>
+				    	<input type="email" name="email" id="email" required autocomplete>
+				    	<br>
+				    	<label for="contactNumber">Contact Number:</label>
+				    	<br>
+				    	<input type="number" name="contact_number" id="contactNumber" required autocomplete>
+				    	<br>
+				    	<label for="serviceType">Service Type:</label>
+				    	<br>
+				    	<select name="service_type" id="serviceType">
+							<option value="Front End Programming">Front End Programming</option>				    		
+							<option value="Back End Programming">Back End Programming</option>				    		
+				    	</select>	
+				    	<br>
+				    	<label for="preferredContact1">Preferred Contact:</label>
+				    	<br>
+				    	<input type="checkbox" name="preferredContact1" value="Email" id="preferredContact1">
+			    		<label for="preferredContact1">Email</label>
+			    		<br>
+			    		<input type="checkbox" name="preferredContact2" value="Phone Package" id="preferredContact2">
+			    		<label for="preferredContact2">Phone Package</label>
+			    		<br>	
+			    		<input type="radio" name="service" value="Basic" id="service-type1">
+				    	<label for="service-type1">Basic</label>
+				    	<br>
+				    	<input type="radio" name="service" value="Premium" id="service-type2">
+				    	<label for="service-type2">Premium</label>
+				    	<br>
+				    	<label for="message">Message</label>
+				    	<br>
+				    	<textarea name="message" id="message" rows="5" cols="20"></textarea>
+				    	<br>
+				    	<button type="submit">Send Inquiry</button>
+				    	<br>
+			    		<button type="reset">Reset</button>
+
+				</form>
+				
+			</section>
+		</main>
+	</body>
+</html>
